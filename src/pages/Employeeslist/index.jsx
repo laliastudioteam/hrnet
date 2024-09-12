@@ -1,8 +1,15 @@
 import React from "react";
+
+// import redux
 import {useSelector} from "react-redux";
+
+// importrouter
 import {NavLink} from "react-router-dom";
+
+// import datatable module
 import {DataTable} from "react-basic-datatable";
 
+// import bootstrap
 import "bootstrap/dist/css/bootstrap.css";
 
 function Employeeslist() {
