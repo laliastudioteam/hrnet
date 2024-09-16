@@ -91,7 +91,7 @@ function Home() {
 				<div className="container py-5 bg-secondary rounded-3">
 					<h1 className="display-5 fw-bold text-light">HRNET</h1>
 					<p className="col-md-8 fs-4 text-light">
-						Use this form to create a new employee by filling out all inputs.
+						Use this form to create a new employee by filling out all inputs'form.
 						<strong> Then click Save.</strong>
 					</p>
 					<NavLink to="../Employeeslist" className="btn btn-primary">
