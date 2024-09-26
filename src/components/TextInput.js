@@ -12,6 +12,7 @@ const TextInput = ({label, textId, onChange}) => {
 				className="form-control"
 				type="texte"
 				name={textId}
+				id={textId}
 				onChange={(e, test) => onChange(e.target.value)}
 			/>
 		</>

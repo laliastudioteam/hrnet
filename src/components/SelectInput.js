@@ -21,6 +21,7 @@ const SelectInput = ({label, textId, data, onChange}) => {
 				onChange={handleSelectChange}
 				options={data.options}
 				name={textId}
+				id={textId}
 			/>
 		</div>
 	);
